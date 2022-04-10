@@ -1,0 +1,21 @@
+{
+    "name": "websock",
+    "version": "1.0.0",
+    "description": "For Project Game Show",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon duel.js",
+        "cfd": "nodemon confident.js",
+        "hm": "nodemon howmuch.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nishiji Naito",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.3",
+        "nodemon": "^2.0.15",
+        "socket.io": "^4.4.1",
+        "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.4.0",
+        "ws": "^8.5.0"
+    }
+}
